@@ -38,9 +38,9 @@ function handleClick() {
       {{ tooltip }}
     </NTooltip>
   </div>
-  <div v-else>
-    <Button @click="handleClick">
-      <slot />
-    </Button>
-  </div>
+<!--  <div v-else>-->
+<!--    <Button @click="handleClick">-->
+<!--      <slot />-->
+<!--    </Button>-->
+<!--  </div>-->
 </template>
